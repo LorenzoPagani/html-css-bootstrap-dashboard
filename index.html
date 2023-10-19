@@ -1,81 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous">
+    <link rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
     <link rel="stylesheet" href="CSS/style.css">
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
+    
+    <!-- navbar -->
     <header>
-        <nav class="navbar navbar-expand-sm bg-body">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+      <nav class="navbar navbar-expand-sm bg-body">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-auto" type="search"
+              placeholder="Search" aria-label="Search">
+          </form>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+            </ul>
+          </div>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+          <!-- sidebar -->
+          <div class="sidebar col-2 text-white text-center position-relative">
+            <div class="row">
+              <div class="col-12">home</div>
+              <div class="col-12">home</div>
+              <div class="col-12 ">home</div>
+            </div>
+            <div class="row position-absolute bottom-0 w-100">
+              <div class="col-12">fine</div>
+            </div>
+          </div>
+          <!-- main content -->
+          <div
+            class="right-content overflow-auto col-10">
+            <div class="row">
+              <div class="dashbar col-12 bg-primary">contenuto
               </div>
             </div>
-          </nav>
-    </header>
-
-    <main>
-        <div class="container-fluid">
             <div class="row">
-                <div class="sidebar col-2 border border-black border-2">contenuto</div>
-                <div class="right-content overflow-auto col-10 border border-black border-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque et sapiente, aperiam aspernatur natus dolorum suscipit perferendis quis. Consequatur autem a error corporis. Nesciunt eaque optio ad voluptate, aspernatur cupiditate!
-                Quidem qui ipsa modi, a sint fugiat quae pariatur cumque ipsam voluptatibus, natus labore quos consectetur, accusamus praesentium alias inventore sapiente? Alias harum tenetur repudiandae maxime impedit odit, enim odio!
-                Dolores laboriosam voluptatibus unde aspernatur assumenda non quia adipisci reiciendis sit officiis, a exercitationem debitis sunt, eveniet est sapiente deserunt officia rem quidem. Rem aspernatur nostrum itaque vero, veritatis sed?
-                Nulla, nesciunt! Obcaecati esse veritatis laboriosam. Aperiam nam, eos repudiandae illo unde sit corrupti modi tempora sint hic maxime nobis expedita dolore itaque recusandae voluptatem veritatis amet obcaecati. Nulla, omnis!
-                Consequuntur illo reprehenderit aperiam autem pariatur, aut quod eveniet officiis ullam accusantium ipsam blanditiis unde dolorem. Qui repellendus provident quae incidunt ratione perspiciatis, culpa quam hic rerum asperiores. Quisquam, reprehenderit?
-                Similique voluptate vitae dignissimos, at beatae laborum alias quae obcaecati magnam nisi quidem vero, voluptatibus reiciendis tenetur excepturi sint accusamus voluptatem nemo rem corporis expedita. Dolor fugiat ab numquam rem.
-                Eligendi, possimus facilis doloremque excepturi, non repellendus ut consectetur praesentium minus facere et natus sint hic minima similique assumenda amet molestias voluptatum fugiat, a nesciunt. Dolor voluptates suscipit eaque vel!
-                Excepturi, et facere fugiat, tenetur exercitationem tempore distinctio obcaecati accusantium praesentium eius veritatis ullam vero facilis modi nobis cupiditate, commodi eligendi. Repudiandae architecto quibusdam mollitia cupiditate quidem illo praesentium laborum.
-                Accusantium, hic? Atque, maxime non? In perferendis numquam nam totam? Excepturi, nulla amet dignissimos minus tempora consequuntur ratione fuga quibusdam dolores veniam nisi labore nesciunt quam iure atque ad dolorem.
-                Eum, nisi. Iure nulla accusamus accusantium, nisi in culpa nobis veritatis laboriosam recusandae sed voluptatibus temporibus, quo excepturi! Esse consectetur dicta assumenda optio accusamus. Sunt rerum consequuntur animi assumenda soluta!
-                Fuga, eum? Est neque mollitia sint quis dolorum eius labore recusandae architecto earum consequuntur sed quod quo, voluptatem quidem consectetur blanditiis. Laudantium suscipit ex facilis fugit nemo, molestias ipsa vitae?
-                Vitae, doloribus quibusdam voluptas porro dolorum at vel nostrum sint nulla blanditiis quae saepe corporis libero quasi, beatae, a suscipit odio quaerat voluptatibus accusamus adipisci quam qui optio? Omnis, similique.
-                Repellat aut saepe eum suscipit earum repudiandae possimus ipsa eligendi, officia odio. Aperiam hic dicta iste voluptatum error voluptate vero, totam odit? Nihil minima error animi quas, aspernatur quam unde.
-                Deleniti minus explicabo ullam ut et nemo, doloremque quod, possimus debitis fugiat atque aliquid voluptas voluptatem ipsam! Minus, minima eius, recusandae exercitationem atque nam, ab dolor id omnis consequuntur facilis?
-                Numquam amet dolorum nemo est. Debitis sunt ipsum reiciendis eveniet obcaecati accusamus ipsa, voluptate repellendus, dolores doloremque voluptas quidem fugiat laborum dicta quam soluta, odit aperiam nemo asperiores pariatur nostrum!
-                Nulla exercitationem quis vero voluptates perspiciatis, fuga quam tempora velit alias, animi nostrum, quos perferendis natus? Distinctio corrupti hic maiores velit consequatur, officia quibusdam unde reiciendis animi. Corrupti, eveniet delectus?
-                Nesciunt molestiae explicabo optio ea inventore fugiat odit? In quibusdam ducimus ad aspernatur iusto earum libero aut minus, a alias quos laudantium eum doloremque tempore assumenda molestias cumque corrupti odio!
-                Animi, placeat, cupiditate ex est dignissimos obcaecati, repellat eligendi neque sunt accusamus perspiciatis ullam quos harum temporibus excepturi. Voluptas expedita mollitia hic esse quisquam pariatur dolorum minus aperiam molestiae nihil.
-                Fugiat est doloribus molestiae officiis corrupti, ratione, asperiores dolor explicabo assumenda aliquam eos facilis dolorum rerum eum nihil reiciendis quasi ex nesciunt eaque laboriosam odit quae ipsum fugit odio. Architecto?
-                Quo, libero! Totam maxime consectetur vitae repellat aliquam exercitationem voluptatibus deleniti sequi, consequatur, voluptatum accusamus, explicabo fugit temporibus. Architecto ratione similique placeat consectetur non aperiam! Ipsa reiciendis autem asperiores molestiae.</div>
+              <!-- left-cards -->
+              <div class="col-12 col-md-8">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="card my-3">
+                      <div class="card-header">titolo</div>
+                      <div class="card-body">corpo</div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="card my-3">
+                      <div class="card-header">titolo</div>
+                      <div class="card-body">corpo</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- right-cards -->
+              <div class="col-12 col-md-4">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="card my-3">
+                      <div class="card-header">titolo</div>
+                      <div class="card-body">corpo</div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="card my-3">
+                      <div class="card-header">titolo</div>
+                      <div class="card-body">corpo</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </main>
     <footer></footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>  
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+  </body>
 </html>
