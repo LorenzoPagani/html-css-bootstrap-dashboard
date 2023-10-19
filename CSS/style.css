@@ -1,0 +1,10 @@
+.navbar {
+    height: 12vh;
+}
+
+.sidebar,
+.right-content {
+    height: 88vh;
+}
+
+
