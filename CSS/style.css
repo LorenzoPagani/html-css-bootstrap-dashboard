@@ -2,6 +2,10 @@
     height: 12vh;
 }
 
+.my_searchbar {
+    background-color: #E5E5E5;
+}
+
 .sidebar,
 .right-content {
     height: 88vh;
@@ -12,8 +16,13 @@
     background-image: url(../img/sidebar-bg.png);
 }
 
-
+.sidebar i:before {
+    width: 1rem;
+    aspect-ratio: 1;
+}
 /* main */
 
 
-
+.dashbar_badge {
+    background-color: #165BBA;
+}
