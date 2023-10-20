@@ -1,4 +1,3 @@
-
 /* navbar */
 .navbar {
     height: 12vh;
@@ -25,6 +24,11 @@
 .sidebar {
     background-color: #132A3F;
     background-image: url(../img/sidebar-bg.png);
+}
+
+
+.sidebar_button:hover {
+    background-color: gray;
 }
 
 .sidebar i:before {
