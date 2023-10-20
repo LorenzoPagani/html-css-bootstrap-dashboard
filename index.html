@@ -17,53 +17,52 @@
 
     <!-- navbar -->
     <header>
-      <nav class="navbar navbar-expand-sm bg-body">
-        <div class="container-fluid flex-nowrap">
-          <a class="navbar-brand" href="#">
-            <img class="img-fluid" src="img/logo.svg" alt>
-          </a>
-          <div class="my_search">
-            <i class="fa fa-search m-auto"></i>
-          </div>
-          <form class="d-flex flex-grow-1" role="search">
-            <input class="my_searchbar form-control ms-auto flex-grow-1"
-              type="search"
-              placeholder="cerca" aria-label="Search">
-          </form>
-          <div class="collapse navbar-collapse flex-grow-0"
-            id="navbarSupportedContent">
+      <div class="container-fluid flex-nowrap">
+          <nav class="navbar navbar-expand-sm bg-body">
+            <a class="navbar-brand" href="#">
+              <img class="img-fluid" src="img/logo.svg" alt>
+            </a>
+            <div class="input-group">
+              <span class="input-group-text my_search" id="basic-addon1"><i
+                  class="fa fa-search m-auto"></i></span>
+              <input type="search" class="my_search form-control"
+                placeholder="Prova a cercare: Lezioni di Laravel"
+                aria-label="search" aria-describedby="basic-addon1">
+            </div>
+            <div class="collapse navbar-collapse flex-grow-0"
+              id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fa-regular fa-list-ul"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class=" fa-solid fa-block-question"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                  </a>
+                </li>
+              </ul>
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <i class="fa-regular fa-list-ul"></i>
+              <li class="nav-item dropstart">
+                <a class="nav-link  ms-2" href="#" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-bell" style="color: #FF8F00;"></i>
                 </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <i class=" fa-solid fa-block-question"></i>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <i class="fa-solid fa-ellipsis-vertical"></i>
-                </a>
+                <ul class="dropdown-menu translated">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
               </li>
             </ul>
           </div>
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item dropstart">
-              <a class="nav-link  ms-2" href="#" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="fa-solid fa-bell" style="color: #FF8F00;"></i>
-              </a>
-              <ul class="dropdown-menu translated">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-          </ul>
         </div>
       </nav>
     </header>
@@ -71,6 +70,7 @@
     <main>
       <div class="container-fluid">
         <div class="row">
+
           <!-- sidebar -->
           <div
             class="sidebar container-fluid d-flex flex-column col-2 text-white text-center ">
@@ -103,6 +103,7 @@
               </div>
             </div>
           </div>
+
           <!-- main content -->
           <div
             class="right-content container-fluid overflow-auto col-10">
@@ -145,8 +146,9 @@
                   </div>
 
                   <!-- offcanvas -->
-                  <div class="col-12 col-sm-3 d-flex justify-content-center align-items-start order-first order-sm-last">
-                    <span class="my-3">Inserisi nuovo studente</span>
+                  <div
+                    class="col-12 col-sm-3 d-flex justify-content-center align-items-start order-first order-sm-last">
+                    <span class="my-3 me-2">Nuovo studente</span>
                     <button class="btn btn-outline-light my-3" type="button"
                       data-bs-toggle="offcanvas"
                       data-bs-target="#offcanvasRight"
@@ -163,30 +165,38 @@
                         <form class="row g-3">
                           <div class="col-md-6">
                             <label for="inputName" class="form-label">Nome</label>
-                            <input type="text" class="form-control" id="inputname">
+                            <input type="text" class="form-control"
+                              id="inputname">
                           </div>
                           <div class="col-md-6">
                             <label for="inputLastName" class="form-label">Cognome</label>
-                            <input type="text" class="form-control" id="inputLastName">
+                            <input type="text" class="form-control"
+                              id="inputLastName">
                           </div>
                           <div class="col-md-6">
                             <label for="inputEmail4" class="form-label">Email</label>
                             <div class="input-group mb-3">
                               <span class="input-group-text" id="basic-addon1">@</span>
-                              <input id="inputEmail4" type="email" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                              <input id="inputEmail4" type="email"
+                                class="form-control" placeholder
+                                aria-label="Username"
+                                aria-describedby="basic-addon1">
                             </div>
                           </div>
                           <div class="col-md-6">
                             <label for="inputPassword4" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="inputPassword4">
+                            <input type="password" class="form-control"
+                              id="inputPassword4">
                           </div>
                           <div class="col-12">
                             <label for="inputAddress" class="form-label">Indirizzo</label>
-                            <input type="text" class="form-control" id="inputAddress" placeholder="">
+                            <input type="text" class="form-control"
+                              id="inputAddress" placeholder>
                           </div>
                           <div class="col-md-6">
                             <label for="inputCity" class="form-label">Città</label>
-                            <input type="text" class="form-control" id="inputCity">
+                            <input type="text" class="form-control"
+                              id="inputCity">
                           </div>
                           <div class="col-md-4">
                             <label for="inputState" class="form-label">Stato</label>
@@ -199,15 +209,18 @@
                           </div>
                           <div class="col-md-2">
                             <label for="inputZip" class="form-label">CAP</label>
-                            <input type="text" class="form-control" id="inputZip">
+                            <input type="text" class="form-control"
+                              id="inputZip">
                           </div>
                           <div class="col-md-12">
                             <label for="inputphoto" class="form-label">Foto</label>
-                            <input type="file" class="form-control" id="inputphoto">
+                            <input type="file" class="form-control"
+                              id="inputphoto">
                           </div>
                           <div class="col-12">
                             <div class="form-check">
-                              <input class="form-check-input" type="checkbox" id="gridCheck">
+                              <input class="form-check-input" type="checkbox"
+                                id="gridCheck">
                               <label class="form-check-label" for="gridCheck">
                                 Seleziona per proseguire
                               </label>
@@ -219,8 +232,6 @@
                           </div>
                         </form>
 
-
-
                       </div>
                     </div>
                   </div>
@@ -230,12 +241,10 @@
             <div class="row">
 
               <!-- left-cards -->
-
               <div class="col-12 col-md-8">
                 <div class="row">
 
                   <!-- class card -->
-
                   <div class="col-12">
                     <div class="card my-3">
                       <div class="card-header">Prossime classi</div>
@@ -401,7 +410,6 @@
                   </div>
 
                   <!-- FAQ -->
-
                   <div class="col-12">
                     <div class="card my-3">
                       <div class="card-header">F.A.Q.</div>
@@ -481,6 +489,7 @@
                   </div>
                 </div>
               </div>
+
               <!-- right-cards -->
               <div class="col-12 col-md-4">
                 <div class="row">

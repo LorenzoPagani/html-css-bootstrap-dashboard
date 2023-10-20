@@ -1,17 +1,13 @@
+
+/* navbar */
 .navbar {
     height: 12vh;
 }
 
 .my_search {
     background-color: #E5E5E5;
-    height: 37.8px;
-    position: relative;
-    left: 1%;
-    padding: 5px 8px 5px 5px;
-    border-radius: 6px 0 0 6px;
-    color: gray;
-    
 }
+
 .my_searchbar {
     background-color: #E5E5E5;
 }
@@ -20,6 +16,7 @@
     transform: translate(0%, 40%);
 }
 
+/* sidebar */
 .sidebar,
 .right-content {
     height: 88vh;
@@ -34,23 +31,21 @@
     width: 1rem;
     aspect-ratio: 1;
 }
+
 /* main */
-
-
 .dashbar_badge {
     background-color: #165BBA;
 }
 
 
 /* class card */
-
 .class-font {
     font-size: .7em;
 }
 
 .class_list:hover {
     background-color: #E5E5E5;
-  
+
 }
 
 .class_name_img {
