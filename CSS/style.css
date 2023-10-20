@@ -4,11 +4,11 @@
     height: 12vh;
 }
 
-.my_search {
-    background-color: #E5E5E5;
+.my_logo {
+    max-height: 2rem;
 }
 
-.my_searchbar {
+.my_search {
     background-color: #E5E5E5;
 }
 
