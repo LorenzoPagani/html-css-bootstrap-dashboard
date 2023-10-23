@@ -43,18 +43,9 @@
 
 
 /* class card */
-.class-font {
-    font-size: .7em;
-}
-
-.class_list:hover {
-    background-color: #E5E5E5;
-
-}
 
 .class_name_img {
     width: 1rem;
-    margin-right: .8rem;
     border-radius: 50%;
 }
 
